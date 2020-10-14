@@ -28,5 +28,20 @@
 }
 .animate-right{
     animation-name: right;
-    animation-duration: 1000ms;
+    animation-duration: 300ms;
+}
+
+/*Definições de animação do mapa*/
+@keyframes appear{
+    from {
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+.animate-appear{
+    animation-name: appear;
+    animation-duration: 300ms;
+    animation-fill-mode: backwards; 
 }
